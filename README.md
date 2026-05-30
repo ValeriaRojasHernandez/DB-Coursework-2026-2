@@ -61,49 +61,49 @@ El proyecto incluye autenticación, registro de clientes, control de sesiones, r
 
 ### Página de inicio
 
-![Página de inicio](capturas/Inicio.png)
+![Página de inicio](Inicio.png)
 
 ---
 
 ### Catálogo de productos
 
-![Catálogo de productos](capturas/CATALOGO.png)
+![Catálogo de productos](CATALOGO.png)
 
 ---
 
 ### Promociones
 
-![Promociones](capturas/Oferta.png)
+![Promociones](Oferta.png)
 
 ---
 
 ### Sucursales
 
-![Sucursales](capturas/Sucursales.png)
+![Sucursales](Sucursales.png)
 
 ---
 
 ### Ayuda
 
-![Ayuda](capturas/Ayuda.png)
+![Ayuda](Ayuda.png)
 
 ---
 
 ### Panel de administrador
 
-![Panel de administrador](capturas/ADMIN.png)
+![Panel de administrador](ADMIN.png)
 
 ---
 
 ### Panel de empleado
 
-![Panel de empleado](capturas/EMPLEADO.png)
+![Panel de empleado](EMPLEADO.png)
 
 ---
 
 ### Panel de cliente
 
-![Panel de cliente](capturas/CLIENTE.png)
+![Panel de cliente](CLIENTE.png)
 
 </details>
 
@@ -121,7 +121,14 @@ LaCasita/
 ├── resources/
 ├── routes/
 ├── storage/
-├── capturas/
+├── Inicio.png
+├── CATALOGO.png
+├── Oferta.png
+├── Sucursales.png
+├── Ayuda.png
+├── ADMIN.png
+├── EMPLEADO.png
+├── CLIENTE.png
 ├── artisan
 ├── composer.json
 ├── composer.lock
@@ -219,10 +226,10 @@ http://127.0.0.1:8000
 - No subir `.env` a GitHub.
 - No subir `vendor` ni `node_modules`.
 - En producción usar `APP_DEBUG=false`.
-- Conservar la carpeta `capturas` para que las imágenes del README se visualicen correctamente.
+- Las imágenes del README deben estar en la raíz del repositorio, junto al archivo `README.md`.
 
 ---
 
 ## Conclusión
 
-**La Casita** es un proyecto web funcional desarrollado con Laravel y MySQL. Integra autenticación, roles, operaciones CRUD y paneles diferenciados para administrar un mini súper de manera sencilla
+**La Casita** es un proyecto web funcional desarrollado con Laravel y MySQL. Integra autenticación, roles, operaciones CRUD y paneles diferenciados para administrar un mini súper de manera sencilla.
