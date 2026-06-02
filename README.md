@@ -516,6 +516,39 @@ Código Fuente: Frontend [Repositorio](https://github.com/scynara09-hue/Scynara-
 Código Fuente: Backend [Repositorio](https://github.com/scynara09-hue/Scynara-Backend)
 Demo en Vivo: [Página Web](https://scynara-frontend-nuv4w7vem-niv-s-projects2.vercel.app/)
   
+## Proyecto 9: Data Warehouse CDMX - Consumo de Agua y Clima
+Proyecto de Data Warehouse para analizar la correlación entre el consumo de agua y las condiciones climáticas en la Ciudad de México durante 2019.
+
+### Tecnologías
+* Docker
+* Docker compose
+* PostgreSQL 16
+* SQL
+* CSV
+* Modelo Estrella
+* ETL
+* Open-Meteo
+* SACMEX CDMX
+
+### Funcionalidad principales
+* Carga automática de archivos SQL al inicializar el contenedor de PostgreSQL.
+* Creación de tablas de staging para recibir datos crudos.
+* Construcción de dimensiones como tiempo, ubicación e índice de desarrollo.
+* Construcción de tablas de hechos para consumo de agua y clima.
+* Integración de datos bimestrales de consumo de agua con datos climáticos diarios.
+* Agregación de información climática por bimestre.
+* Consulta analítica para comparar consumo total de agua, temperatura promedio, días de calor, días fríos y lluvia total.
+* Ejecución del proyecto mediante Docker sin instalar PostgreSQL manualmente.
+
+### Repositorio Base
+
+Proyecto original disponible en:
+
+[Data Warehouse CDMX](https://github.com/omarpulidom/data_warehouse_cdmx)
+
+### Fork del proyecto
+
+[Mi fork del proyecto](https://github.com/2gmyq2crw8-spec/Proyecto-9-Data-Warehouse-67.git)
 
 ## Proyecto 10: Notaría 105 (Sistema Integral de Gestión Notarial)
 Plataforma web segura diseñada específicamente para la **Notaría Pública 105** en la Ciudad de México. Este proyecto nace para resolver la necesidad de modernizar el flujo de trabajo notarial, eliminando el papeleo físico, previniendo la pérdida de documentos y centralizando la información en un entorno digital seguro bajo principios de auditoría estricta.
