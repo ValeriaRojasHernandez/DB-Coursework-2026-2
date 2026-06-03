@@ -842,3 +842,67 @@ Aplicación de laboratorio para administrar integrantes, bailes, presentaciones,
 
 - **Código Fuente:** [Repositorio en GitHub](https://github.com/avril1699/Grupo-Jaltepec-BD/tree/4e0f75d7a63f13784b874eaa521d3e8103a8dce5/Downloads/danza-app)
 - **Demo en Vivo (Vercel):** [Ver proyecto](https://grupo-jaltepec-bd.vercel.app/)
+
+## Proyecto 19: ABV Library (Sistema de Gestión de Librería)
+
+Sistema web completo de gestión para una librería/biblioteca. Permite administrar libros, empleados, clientes, proveedores, ventas, préstamos y donaciones desde una interfaz moderna tipo marketplace con tres roles de acceso.
+
+### 🛠️ Tecnologías
+
+- **Backend:** Node.js con Express 5
+- **Base de Datos:** PostgreSQL (Render)
+- **Frontend:** HTML, CSS y JavaScript vanilla (Fetch API)
+- **Autenticación:** bcrypt (10 salt rounds)
+- **API externa:** Open Library Search API
+- **Despliegue:** Render (web service + PostgreSQL)
+
+<details>
+<summary>▶ 🖼️ Ver capturas de pantalla</summary>
+
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/01-catalogo.png" alt="Catálogo de libros" width="800"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/02-modo-oscuro.png" alt="Modo oscuro" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/03-login.png" alt="Login unificado" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/04-admin-panel.png" alt="Panel administrador" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/05-libros-stock.png" alt="Gestión de libros y stock" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/06-bibliotecario-panel.png" alt="Panel bibliotecario" width="400"/>  
+<img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/07-carrito-ventas.png" alt="Carrito de ventas" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/08-portal-cliente.png" alt="Portal del cliente" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/09-facturas.png" alt="Reporte de facturas" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/10-proveedores.png" alt="Recepción de paquetes" width="800"/> |
+
+</details>
+
+### ✨ Funcionalidades principales
+
+- Catálogo de libros con búsqueda en tiempo real y switch Local/Global (Open Library)
+- Sistema de ventas con carrito multi-libro y control de stock automático
+- Sistema de préstamos con cálculo automático de multas ($10/día de retraso)
+- Sistema de puntos de fidelización (1 punto por cada $10 de compra)
+- Donaciones de libros con recompensa (puntos o intercambio)
+- CRUD de proveedores con recepción de paquetes y distribución de stock
+- Reportes financieros por rango de fechas (ingresos, egresos, balance neto)
+- Favoritos y recomendaciones personalizadas por autor
+- Tres temas visuales: Claro, Oscuro y Night shift
+- Roles: Administrador, Bibliotecario y Cliente
+
+### 👥 Integrantes
+
+- Vanya Castillo Castillo
+- Abel Pineda Godinez
+
+### Base de Datos (14 tablas)
+
+`persona` · `empleado` · `cliente` · `libro` · `proveedor` · `prov_suministra_lib` · `recepcion_paquete` · `venta` · `lib_venta` · `prestamo` · `lib_pres` · `libro_favorito` · `historial_puntos` · `donacion`
+
+### 🔑 Credenciales de Acceso (Para Evaluación)
+
+- **Correo:** visitante@abvlibrary.com
+- **Contraseña:** visitante1234
+
+> ⚠️ Este usuario es de solo lectura. No tiene privilegios para eliminar ni modificar datos, con el fin de no dañar el proyecto en producción.
+
+### 🔗 Enlaces
+
+- **Código Fuente:** [Repositorio en GitHub](https://github.com/AbelGod27/Libreria_va)
+- **Demo en Vivo (GitHub Pages):** [ABV Library](https://abelgod27.github.io/abv_library/)
+- **Demo en Vivo (Render):** [ABV Library](https://libreria-va.onrender.com)
